@@ -1,0 +1,178 @@
+/*for pc*/
+
+
+header{
+    height:100px;
+}
+body{
+    background-color:hsl(30, 54%, 90%);
+}
+
+img{ 
+    width:100%;
+
+
+
+}
+h2{/*Simple Omlette recipe title*/
+    font-family:  youngserif;
+    font-weight:400;
+}
+
+p{/*below recipe, description*/
+    font-family: outfit;
+    font-weight: 400;
+}
+
+.gap{
+    padding-left: 25px;
+}
+
+h4{/*Preperation time */
+    font-family: outfit;
+    font-weight: 600;
+    color:hsl(332, 51%, 32%);
+    padding-left:10px;
+
+}
+
+.list2::marker{
+    color:hsl(332, 51%, 32%);
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+  
+}
+
+
+.listing{ /*listing part*/
+font-family: outfit;
+font-size: 16px;
+line-height: 120%;
+}
+
+
+.listing li {
+    padding: 10px;
+}
+
+
+h3{/*ingredients, instruction & Nutrition part*/
+font-family: youngserif;
+font-weight: 400;
+color:hsl(14, 45%, 36%);
+
+
+}
+
+hr{
+opacity:0.3;
+    
+}
+
+ 
+table{
+    padding:35px;
+    font-family: outfit;
+  
+  
+}
+
+td{
+    padding:25px;
+}
+.brown{
+    color:hsl(14, 45%, 36%);
+
+}
+
+
+.background{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top:auto;
+margin-bottom: auto;
+width:35%;
+background-color: white;
+border-radius: 10px;
+
+padding: 20px;
+}
+
+footer{
+    height:100px;
+}
+
+@media only screen and (max-width: 375px) {
+body {
+      background-color: hsl(0, 0%, 100%);
+      
+    }
+
+    header{
+        height:0%;
+    }
+
+    .background{
+        display: block;
+        margin-left: none;
+        margin-right: none;
+        margin-top:none;
+        margin-bottom: none;
+        width:100%;
+        background-color: hsl(0, 0%, 100%);;
+       padding:0px;
+        }
+ h2{/*Simple Omlette recipe title*/
+font-size: 35px;
+padding-left: 20px;
+        }
+p{ padding-left:25px;
+    padding-right: 25px;
+    padding-top: 0%;
+    position: center;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+}
+
+h4{/*Preperation time */
+ 
+    font-weight: 800;
+    padding-left:10px;
+    padding-top: 30px;
+    font-size:20px;
+
+}
+.gap{
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 140%;
+}
+
+h3{/*ingredients, instruction & Nutrition part*/
+   font-weight: 600;
+   padding-left: 20px;
+    
+}
+.listing{ /*listing part*/
+ padding-left: 40px;
+ padding-right:40px;
+    
+   
+    }
+table{
+ padding-left:40px;
+ padding-right:60px
+
+      
+      
+    }
+    
+ td{
+        padding-left:40px;
+        padding-right:60px;
+    }
+}
